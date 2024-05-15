@@ -10,3 +10,5 @@
  Crear el componente  ng g c 
  Crear servicio ng g servicio o puedes poner la s y el nombre
  Crear un routing ng g m student/studentRouting --flat --module=student
+ 6. Diseñando la interfaz del dashboard
+ 
