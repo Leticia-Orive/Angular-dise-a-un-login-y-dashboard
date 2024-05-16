@@ -23,7 +23,7 @@ export class PagesComponent {
         this.sidenav.close();
       } else {
         this.sidenav.mode = 'side';
-        this.sidenav.close();
+        this.sidenav.open();
       }
     });
     this.cd.detectChanges();
