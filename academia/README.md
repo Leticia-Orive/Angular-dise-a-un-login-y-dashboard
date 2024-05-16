@@ -15,3 +15,4 @@
  8. Lazy loading 
  9. diseño de interfaz de login
 10. Navegacion entre componentes router link y navigate
+11. Interfaz crear Estudiante

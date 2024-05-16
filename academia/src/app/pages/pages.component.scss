@@ -55,9 +55,10 @@ mat-toolbar{
     border-radius: 10px;
     margin: 16px;
     margin-left: 32px;
-    display: flex;
+    //display: flex;
     font-size: 2rem;
-    color: lightgray
+    color: lightgray;
+    padding:15px;
 }
 mat-divider{
     margin-top: 16px;

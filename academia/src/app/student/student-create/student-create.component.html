@@ -1,1 +1,47 @@
-<p>student-create works!</p>
+<mat-label>Crear Estudiante</mat-label>
+<hr>
+<form class="example-form">
+    <mat-grid-list cols="2" rowHeight="8:1">
+  <mat-grid-tile>
+     <mat-form-field class="example-full-width">
+    <mat-label>Nombre Completo</mat-label>
+    <input matInput placeholder="Leticia" >
+  </mat-form-field>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-form-field class="example-full-width">
+    <mat-label>Provincia</mat-label>
+    <input matInput placeholder="Burgos" >
+  </mat-form-field>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <mat-form-field class="example-full-width">
+    <mat-label>Correo electronico</mat-label>
+    <input matInput placeholder="demo@gmail.com" >
+  </mat-form-field>
+  </mat-grid-tile>
+   <mat-grid-tile>
+    <mat-form-field class="example-full-width">
+    <mat-label>Telefono</mat-label>
+    <input matInput placeholder="678142035" >
+  </mat-form-field>
+   </mat-grid-tile>
+   <mat-grid-tile>
+    <mat-radio-group aria-label="Seleccionar genero">
+  <mat-radio-button value="Masculino">Masculino</mat-radio-button>
+  <mat-radio-button value="Femenino">Femenino</mat-radio-button>
+</mat-radio-group>
+   </mat-grid-tile>
+  <mat-grid-tile>
+    <label class="for-label" style="font-size: 14px; color: black; margin-left: 15px;">Año de nacimiento</label>
+  <input type="date" placeholder="Datepicker" class="form-control" style=" margin-right: 15px;">
+  
+ 
+  </mat-grid-tile>
+
+  
+</mat-grid-list>
+  
+<button mat-raised-button type="submit" color="primary">Añadir estudiante</button>
+  
+</form>
