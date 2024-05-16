@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PagesModule } from './pages/pages.module';
 import { StudentModule } from './student/student.module';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,7 +17,8 @@ import { StudentModule } from './student/student.module';
     BrowserAnimationsModule,
     NgbModule,
     PagesModule,
-    StudentModule
+    StudentModule,
+    AuthModule
     
   ],
   providers: [],
