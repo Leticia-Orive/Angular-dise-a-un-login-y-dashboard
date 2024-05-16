@@ -1,12 +1,20 @@
 
 <mat-toolbar >
+  <button mat-icon-button *ngIf="sidenav.mode ==='over'"(click)="sidenav.toggle()">
+    <mat-icon *ngIf="!sidenav.opened">
+      menu
+    </mat-icon>
+    <mat-icon *ngIf="sidenav.opened">
+      close
+    </mat-icon>
+  </button>
     
     <span>My App</span>
     <span class="example-spacer"></span>
     
   </mat-toolbar>
   <mat-sidenav-container class="example-container" >
-  <mat-sidenav mode="side" opened>
+  <mat-sidenav #sidenav="matSidenav" class=" mat-elevation-z8" mode="side" opened>
     <img class="avatar mat-elevation-z8" src="https://img.freepik.com/vector-gratis/pila-libros-diseno-plano-dibujado-mano_23-2149334862.jpg" alt="">
     <h4 class="name">Leticia Orive</h4>
     <p class="designation">System Developer Associate</p>

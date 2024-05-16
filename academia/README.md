@@ -11,4 +11,4 @@
  Crear servicio ng g servicio o puedes poner la s y el nombre
  Crear un routing ng g m student/studentRouting --flat --module=student
  6. Diseñando la interfaz del dashboard
- 
+ 7. Activar menu con angular material y cdk
